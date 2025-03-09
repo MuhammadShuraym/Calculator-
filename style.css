@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    line-height: 1.5;
+}
+.container{
+    width: 580px;
+    height: auto;
+    min-height: 100px;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 1px solid #0ef;
+    box-shadow: inset 0 0 0.5em 0 #0ef, 0 0 0.5em 0 #0ef;
+}
+.main1 h1{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0px;
+    box-shadow: 0px 2px gray;
+    font-size: 34px;
+    color: white;
+}
+.main2{
+    width: 135px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.main2 label{
+    font-size: 28px;
+    text-align: left;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0ef;
+}
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border:2px solid #333;
+    padding: 12px;
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+}
+input[type=button]{
+    width: 180px;
+    margin-left: 35%;
+    margin-top: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #0ef;
+    color: #111;
+    border: 1px solid #0ef;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+input[type=button]:hover{
+    color: #fff;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    box-shadow: inset 0 0 0.5em 0 #0ef, 0 0 0.5em 0 #0ef;
+}
+#age{
+    padding: 20px;
+    font-size: 24px;
+    overflow: hidden;
+    line-height: 1.5;
+    color: #fff;
+}
